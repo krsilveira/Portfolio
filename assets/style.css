@@ -1,0 +1,276 @@
+/*  background color for text */
+:root {
+    --navy-grey: #3f5562;
+  }
+ 
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-image: url(/images/white.jpeg);
+    background-size: cover;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 90px;
+  }
+  
+  h2 {
+    font-size: xx-large;
+  }
+  
+  p {
+    background-color: var(--navy-grey);
+  }
+  
+  p {
+    font-family: "Lora", serif;
+    color: white;
+    padding: 10px;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    color: black;
+  }
+
+  
+  li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  li a:hover {
+    color: white;
+    text-shadow: 0px 0px 30px red;
+  }
+  
+
+  
+  nav ul li a {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    color: white;
+  }
+  
+
+  .container-top {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    background-image: url(/images/development.jpeg);
+    background-size: cover;
+    background-position: 9% 14% ;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .sub-heading-text {
+    position: relative;
+    background-color: var(--navy-grey);
+    padding: 5px;
+    transform: translate(0%, -150%);
+    width: fit-content;
+    margin-top: 150px;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .Profile {
+    justify-content: left;
+  }
+  
+  #profile-picture {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+  }
+  
+  .site-section {
+    font-size: large;
+    line-height: 1.1;
+    display: flex;
+  }
+  
+  .site-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid rgb(0, 0, 0);
+    font-size: 4vw;
+    line-height: 1.6;
+  
+  }
+  
+  .about-me {
+    display: flex;
+  }
+  
+  #about-me-text {
+    color: rgb(0, 0, 0);
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: Larger;
+  }
+  
+  #about-me-image {
+    height: 200px;
+    width: auto;
+  }
+  
+  .my-project {
+    flex: 0 0 77%;
+  }
+  
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* project titles are the name of the projects over the hyperlink images */
+  .project-titles {
+    position: relative;
+    background-color: var(--navy-grey);
+    padding: 5px;
+    transform: translate(0%, -150%);
+    width: fit-content;
+    z-index: 1;
+  }
+
+  
+  .first-project-title {
+    position: absolute;
+    transform: translate(0%, 275%);
+    padding: 5px;
+    width: fit-content;
+    background-color: var(--navy-grey);
+}
+
+  .projects img {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  
+  
+  #projects-image {
+    width: 400px;
+    height: 400px;
+    position: relative;
+  }
+  
+  /* hyper link images that directs to future projects */
+  .project-case {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 250px;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  #resume-image {
+    height: fit-content;
+    width: 500px;
+    display: flex;
+    background-color: red;
+  } 
+  
+  .contact-items {
+    display: flex;
+    list-style-type: none;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    color: black;
+    background-color: var(--navy-grey);
+    width: 100%;
+    padding: 2%;
+  }
+ 
+  
+  footer {
+    text-align: center;
+  }
+
+  #black-text {
+    color: black;
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out; 
+
+    
+  }
+
+  /* media queries */
+  @media screen and (max-width: 600px) {
+    .logo {
+      display: none;
+    }
+    .container-top {
+      display: flex;
+      align-items: right;
+      justify-content: center;
+  }
+    .nav-items {
+      display: flex;
+      flex-direction: column;
+    }
+    .sub-heading-text, .sub-heading {
+     justify-content: center;
+    }
+    .site-section {
+      font-size: large;
+      line-height: 1.1;
+      display: flex;
+      flex-direction: column;
+    }
+    .site-section > h2 {
+      flex: 0 0 20%;
+      text-align: center;
+      padding-right: 15px;
+      border-right: none;
+      border-bottom: 4px solid red;
+      font-size: 4vw;
+      line-height: 1.6;
+    }
+  
+    .mini-card-first {
+      position: absolute;
+      transform: translate(0%, 300%);
+      padding: 5px;
+      width: fit-content;
+      background-color: var(--navy-grey);
+    }
+
+    #project-image, #resume-image {
+     width: 400px;
+     height: 400px;
+    }
+
+    .contact-items {
+      display: flex;
+      flex-direction: column;
+      background-image: url(/images/code-guy.jpeg);
+    }
+  }
