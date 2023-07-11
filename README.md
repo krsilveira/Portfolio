@@ -37,6 +37,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Review
 
-The URL of the deployed application (https://krsilveira.github.io/Challenge-2-/)
-The URL of the GitHub repository (https://github.com/krsilveira/Challenge-2-/)
+* The URL of the deployed application (https://krsilveira.github.io/Challenge-2-/)
+* The URL of the GitHub repository (https://github.com/krsilveira/Challenge-2-/)
 
