@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Description
-This website is the landing page of my web developer Portfolio. A showcase of all of my projects in order to demonstrate the skills and knowledge I've acquired throughout the Georgia Tech Coding Bootcamp course. Creating this portfolio allows me to demonstrate my ability to use HTML and CSS, generating a visually satisfying and effective functional website. This site will achieve the goal to reach new potential employers as well as other like-minded developers. Constructing this portfolio taught me the functionalites of CSS and the correlation with HTML, such as the highlited profeciones:
+This website is the landing page of my web developer Portfolio. A showcase of all my projects in order to demonstrate the skills and knowledge I've acquired throughout the Georgia Tech Coding Bootcamp course. Creating this portfolio allows me to demonstrate my ability to use HTML and CSS, generating a visually satisfying and effective functional website. This site will achieve the goal to reach new potential employers as well as other like-minded developers. Constructing this portfolio taught me the functionalites of CSS and the correlation with HTML, such as the highlited profeciones:
 
 * Media queries and responsive designs
 * Flexbox
